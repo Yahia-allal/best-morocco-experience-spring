@@ -20,15 +20,26 @@ public class DataInitializer {
 
         return args -> {
 
-            if (adminRepository.findByEmail(adminEmail).isEmpty()) {
+            Admin admin = adminRepository
+                    .findByEmail(adminEmail)
+                    .orElse(null);
 
-                Admin admin = new Admin(
+            if (admin == null) {
+                admin = new Admin(
                         adminEmail,
                         passwordEncoder.encode(adminPassword));
 
                 adminRepository.save(admin);
-
                 System.out.println("Admin account created.");
+                return;
+            }
+
+            // Keep the database password synchronized with ADMIN_PASSWORD
+            if (!passwordEncoder.matches(adminPassword, admin.getPassword())) {
+                admin.setPassword(passwordEncoder.encode(adminPassword));
+                adminRepository.save(admin);
+
+                System.out.println("Admin password updated.");
             }
         };
     }
