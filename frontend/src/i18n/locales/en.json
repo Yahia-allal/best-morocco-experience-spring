@@ -1,0 +1,286 @@
+{
+  "nav": {
+    "home": "Home",
+    "experiences": "Experiences",
+    "destinations": "Destinations",
+    "about": "About Us",
+    "contact": "Contact",
+    "book": "Book Now"
+  },
+  "hero": {
+    "kicker": "PRIVATE JOURNEYS • LOCAL EXPERTISE",
+    "title1": "Discover the Magic",
+    "title2": "of Morocco",
+    "text": "Authentic journeys, unforgettable landscapes and experiences designed around you.",
+    "tours": "Discover Our Tours",
+    "plan": "Plan Your Trip",
+    "scroll": "SCROLL TO EXPLORE ↓"
+  },
+  "home": {
+    "introKicker": "BEYOND THE ORDINARY",
+    "introTitle": "Morocco, experienced differently.",
+    "introText": "Travel deeper through private routes, carefully chosen places and flexible journeys shaped around your pace.",
+
+    "features": {
+      "local": "Local expertise",
+      "tailor": "Tailor-made journeys",
+      "support": "Dedicated support",
+      "authentic": "Authentic experiences",
+      "caption": "Thoughtful travel, without the rush."
+    },
+
+    "journeysKicker": "CURATED JOURNEYS",
+    "popular": "Popular experiences",
+    "popularText": "Desert horizons, mountain villages and Morocco's historic cities.",
+
+    "discoverKicker": "ICONIC PLACES",
+    "discoverTitle": "Discover Morocco",
+    "discoverText": "From vibrant imperial cities to Atlantic shores, mountain valleys and the silence of the Sahara.",
+    "destinationsButton": "Explore Destinations",
+
+    "marrakech": "Marrakech",
+    "marrakechText": "Riads, souks, gardens and the energy of the Red City.",
+
+    "sahara": "Sahara Desert",
+    "saharaText": "Golden dunes, desert camps and unforgettable nights beneath the stars.",
+
+    "atlas": "Atlas Mountains",
+    "atlasText": "Berber villages, dramatic valleys and spectacular mountain landscapes.",
+
+    "whyKicker": "WHY TRAVEL WITH US",
+    "whyTitle": "More than a tour. A journey made for you.",
+    "whyText": "We combine local knowledge, carefully selected experiences and personal service to create journeys that feel natural, flexible and genuinely Moroccan.",
+
+    "testimonialKicker": "TRAVELER STORIES",
+    "testimonialTitle": "Memories made in Morocco",
+    "testimonialText": "Every journey is different. Our goal is simple: make yours unforgettable.",
+
+    "ctaKicker": "YOUR JOURNEY STARTS HERE",
+    "ctaTitle": "Ready to discover Morocco?",
+    "ctaText": "Tell us what you want to experience. We'll help shape the right journey.",
+    "ctaButton": "Plan My Trip"
+  },
+  "tour": {
+    "from": "From €{{price}}",
+    "explore": "Explore",
+    "loading": "Loading journey…",
+    "notFound": "Journey not found",
+    "back": "Back to Experiences",
+    "journey": "THE JOURNEY",
+    "overview": "Overview",
+    "itinerary": "Itinerary",
+    "dayByDay": "DAY BY DAY",
+    "itineraryText": "Discover the route and experiences that shape your journey through Morocco.",
+    "day": "DAY {{number}}",
+    "starting": "Starting from",
+    "request": "Request This Trip",
+    "duration": "Duration",
+    "destination": "Destination",
+    "travelStyle": "Travel Style",
+    "private": "Private Journey",
+    "priceFrom": "Price From",
+    "perPerson": "per person",
+    "personalizeTitle": "Make this journey yours",
+    "personalizeText": "Every itinerary can be adapted to your dates, interests, pace and preferred experiences.",
+    "bookingNote": "No payment required. Send your request and we'll contact you to personalize the journey.",
+    "ctaKicker": "TAILOR-MADE MOROCCO",
+    "ctaTitle": "Looking for something different?",
+    "ctaText": "Tell us how you imagine your journey and we'll help create an experience around you.",
+    "ctaButton": "Plan My Journey"
+  },
+  "experiences": {
+    "kicker": "JOURNEYS ACROSS MOROCCO",
+    "title": "Our Experiences",
+    "text": "Private journeys created to reveal the landscapes, culture and character of Morocco.",
+    "all": "All",
+    "introKicker": "TRAVEL YOUR WAY",
+    "introTitle": "More than places. Experiences that stay with you.",
+    "introText": "From the silence of the Sahara to mountain villages and ancient medinas, our journeys combine Morocco's essential places with the freedom to experience them at your own pace.",
+    "benefits": {
+      "private": "Private journeys",
+      "privateText": "Travel with your own driver and enjoy a journey designed around you.",
+      "flexible": "Flexible itineraries",
+      "flexibleText": "Routes can be adapted to your dates, interests and travel style.",
+      "authentic": "Local experiences",
+      "authenticText": "Discover Morocco through landscapes, traditions and people beyond the usual routes."
+    },
+    "collectionKicker": "FIND YOUR JOURNEY",
+    "collectionTitle": "Explore our tours",
+    "collectionText": "Choose a journey as a starting point. Every experience can be adapted to make it yours.",
+    "loading": "Loading experiences…",
+    "empty": "No experiences found."
+  },
+  "pages": {
+    "brand": "BEST MOROCCO EXPERIENCE",
+    "destinations": {
+      "hero": "Explore Morocco",
+      "title": "Destinations",
+      "text": "From Marrakech to the Sahara, discover places with their own rhythm and story."
+    },
+    "about": {
+      "hero": "Travel with local perspective",
+      "title": "About Us",
+      "text": "We create thoughtful private journeys built around flexibility, authentic places and clear support."
+    },
+    "contact": {
+      "hero": "Let's plan your Moroccan adventure",
+      "title": "Contact",
+      "text": "Phone: +212 6 21 54 89 65 • info@bestmoroccoexperience.com",
+      "email": "Send an email"
+    }
+  },
+
+  "destinations": {
+    "kicker": "PLACES WORTH DISCOVERING",
+    "title": "Destinations",
+    "text": "From ancient medinas to desert horizons, discover the places that make Morocco unforgettable.",
+    "introKicker": "EXPLORE MOROCCO",
+    "introTitle": "One country. Endless experiences.",
+    "introText": "Every region of Morocco has its own landscapes, traditions and rhythm. Discover vibrant cities, mountain valleys, Atlantic towns and the silence of the Sahara.",
+    "explore": "Explore Experiences",
+    "places": {
+      "marrakech": {
+        "name": "Marrakech",
+        "region": "Central Morocco",
+        "text": "Lose yourself in colourful souks, peaceful riads, historic palaces and the unforgettable atmosphere of the Red City."
+      },
+      "sahara": {
+        "name": "Sahara Desert",
+        "region": "Southern Morocco",
+        "text": "Cross dramatic desert landscapes, ride between golden dunes and spend a magical night beneath a sky filled with stars."
+      },
+      "atlas": {
+        "name": "Atlas Mountains",
+        "region": "High Atlas",
+        "text": "Discover spectacular valleys, traditional Berber villages and mountain landscapes far from the rhythm of the cities."
+      },
+      "fes": {
+        "name": "Fes",
+        "region": "Northern Morocco",
+        "text": "Step into one of Morocco's oldest imperial cities, where historic madrasas, artisan workshops and winding medina streets preserve centuries of culture."
+      },
+      "chefchaouen": {
+        "name": "Chefchaouen",
+        "region": "Rif Mountains",
+        "text": "Explore the peaceful blue streets of this mountain town, surrounded by the dramatic landscapes of northern Morocco."
+      },
+      "essaouira": {
+        "name": "Essaouira",
+        "region": "Atlantic Coast",
+        "text": "Enjoy ocean air, whitewashed streets, historic ramparts and a relaxed coastal atmosphere on Morocco's Atlantic shore."
+      }
+    },
+    "ctaKicker": "CREATE YOUR JOURNEY",
+    "ctaTitle": "Where will Morocco take you?",
+    "ctaText": "Combine cities, mountains, coast and desert into one journey designed around you.",
+    "ctaButton": "Plan My Journey"
+  },
+
+  "booking": {
+    "kicker": "TAILOR-MADE TRAVEL",
+    "title": "Plan Your Journey",
+    "heroText": "Tell us how you want to experience Morocco. We'll help turn your ideas into a private journey designed around you.",
+
+    "formKicker": "START YOUR JOURNEY",
+    "formTitle": "Tell us about your trip",
+    "formText": "Share a few details with us. There is no commitment and no payment required to send your request.",
+
+    "phoneLabel": "Phone / WhatsApp",
+    "emailLabel": "Email",
+    "supportLabel": "Personal Support",
+    "support": "We're here to help",
+
+    "selectedTour": "Selected journey",
+
+    "name": "Full name",
+    "namePlaceholder": "Your full name",
+    "email": "Email address",
+    "phone": "Phone / WhatsApp",
+    "date": "Preferred travel date",
+    "travelers": "Number of travelers",
+    "destination": "Places you'd like to visit",
+    "destinationPlaceholder": "Marrakech, Sahara, Fes...",
+    "messageLabel": "Tell us about your ideal journey",
+    "message": "What would you like to experience? Tell us about your interests, preferred places or any special requests.",
+
+    "button": "Send My Request",
+    "sending": "Sending your request…",
+    "success": "Thank you! Your request has been received. We'll contact you soon.",
+    "error": "Something went wrong. Please try again.",
+
+    "privacy": "Your information is only used to prepare and respond to your travel request.",
+
+    "stepsKicker": "WHAT HAPPENS NEXT",
+    "stepsTitle": "From idea to Morocco",
+
+    "step1": "Send your request",
+    "step1Text": "Tell us your dates, interests and the places you'd like to discover.",
+
+    "step2": "We design your journey",
+    "step2Text": "We'll contact you and adapt the itinerary around your travel style and preferences.",
+
+    "step3": "Experience Morocco",
+    "step3Text": "Once everything is agreed, your private Moroccan journey is ready to begin."
+  },
+
+  "about": {
+    "kicker": "OUR STORY",
+    "title": "Travel Morocco With Local Perspective",
+    "heroText": "Meaningful private journeys shaped by local knowledge, flexibility and a genuine connection with Morocco.",
+    "storyKicker": "BEST MOROCCO EXPERIENCE",
+    "storyTitle": "Morocco is more than a destination.",
+    "storyText1": "We believe the best journeys are not simply about seeing places. They are about understanding them, meeting people and experiencing the landscapes and traditions that give Morocco its character.",
+    "storyText2": "Our approach is personal and flexible. We create private journeys that give you time to discover Morocco at your own pace.",
+    "valuesKicker": "HOW WE TRAVEL",
+    "valuesTitle": "Designed around the way you want to discover Morocco",
+    "local": "Local knowledge",
+    "localText": "Travel with insight shaped by real knowledge of Morocco and its regions.",
+    "flexible": "Flexible journeys",
+    "flexibleText": "Your itinerary can adapt to your dates, interests and preferred pace.",
+    "personal": "Personal service",
+    "personalText": "Clear, direct support from planning your journey to experiencing Morocco.",
+    "authentic": "Authentic experiences",
+    "authenticText": "Discover landscapes, traditions and places beyond the usual tourist routes.",
+    "ctaKicker": "DISCOVER MOROCCO",
+    "ctaTitle": "Your journey. Your rhythm. Your Morocco.",
+    "ctaText": "Tell us what you want to experience and we'll help shape a journey around you.",
+    "ctaButton": "Plan My Journey"
+  },
+
+  "contact": {
+    "kicker": "GET IN TOUCH",
+    "title": "Let's Talk About Your Journey",
+    "heroText": "Have a question or an idea for your Moroccan adventure? We'd love to hear from you.",
+    "infoKicker": "CONTACT US",
+    "infoTitle": "We're here to help",
+    "infoText": "Whether you're ready to plan your journey or simply have a question, send us a message and we'll get back to you.",
+    "phone": "Phone",
+    "email": "Email",
+    "whatsapp": "WhatsApp",
+    "location": "Based in",
+    "formTitle": "Send us a message",
+    "formText": "Fill in the form and tell us how we can help.",
+    "name": "Full name",
+    "namePlaceholder": "Your full name",
+    "subject": "Subject",
+    "subjectPlaceholder": "How can we help?",
+    "messageLabel": "Message",
+    "message": "Write your message here...",
+    "button": "Send Message",
+    "sending": "Sending…",
+    "success": "Thank you! Your message has been sent successfully.",
+    "error": "Something went wrong. Please try again."
+  },
+
+  "footer": {
+    "text": "Private journeys through Morocco, designed with local knowledge and a personal approach.",
+    "explore": "Explore",
+    "about": "About",
+    "contact": "Contact",
+    "rights": "© 2026 Best Morocco Experience. All rights reserved."
+  },
+  "categories": {
+    "Desert Tours": "Desert Tours",
+    "Day Trips": "Day Trips"
+  }
+}

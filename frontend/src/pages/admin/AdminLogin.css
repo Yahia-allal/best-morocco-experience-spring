@@ -1,0 +1,54 @@
+.loginPage {
+  min-height: 100vh;
+  background: #f5f1ea;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginCard {
+  width: 420px;
+  background: white;
+  padding: 45px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.loginLogo {
+  width: 220px;
+  margin-bottom: 25px;
+}
+
+.loginCard h1 {
+  font-family: Georgia, serif;
+  color: #123c33;
+  margin-bottom: 10px;
+}
+
+.loginCard p {
+  color: #777;
+  margin-bottom: 30px;
+}
+
+.loginCard input {
+  width: 100%;
+  padding: 14px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  font-size: 15px;
+}
+
+.loginCard button {
+  width: 100%;
+  padding: 14px;
+  background: #c96f3d;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.loginCard button:hover {
+  background: #a9572c;
+}

@@ -1,0 +1,286 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "experiences": "Experiencias",
+    "destinations": "Destinos",
+    "about": "Sobre Nosotros",
+    "contact": "Contacto",
+    "book": "Reservar"
+  },
+  "hero": {
+    "kicker": "VIAJES PRIVADOS • EXPERIENCIA LOCAL",
+    "title1": "Descubre la Magia",
+    "title2": "de Marruecos",
+    "text": "Viajes auténticos, paisajes inolvidables y experiencias diseñadas a tu medida.",
+    "tours": "Descubre Nuestros Tours",
+    "plan": "Planifica Tu Viaje",
+    "scroll": "DESLIZA PARA EXPLORAR ↓"
+  },
+  "home": {
+    "introKicker": "MÁS ALLÁ DE LO ORDINARIO",
+    "introTitle": "Marruecos, vivido de otra manera.",
+    "introText": "Viaja más a fondo por rutas privadas, lugares cuidadosamente elegidos y recorridos flexibles adaptados a tu ritmo.",
+
+    "features": {
+      "local": "Experiencia local",
+      "tailor": "Viajes a medida",
+      "support": "Asistencia dedicada",
+      "authentic": "Experiencias auténticas",
+      "caption": "Viaja con calma y atención a cada detalle."
+    },
+
+    "journeysKicker": "VIAJES SELECCIONADOS",
+    "popular": "Experiencias populares",
+    "popularText": "Horizontes del desierto, pueblos de montaña y ciudades históricas de Marruecos.",
+
+    "discoverKicker": "LUGARES EMBLEMÁTICOS",
+    "discoverTitle": "Descubre Marruecos",
+    "discoverText": "Desde vibrantes ciudades imperiales hasta la costa atlántica, los valles de montaña y el silencio del Sáhara.",
+    "destinationsButton": "Explorar Destinos",
+
+    "marrakech": "Marrakech",
+    "marrakechText": "Riads, zocos, jardines y toda la energía de la Ciudad Roja.",
+
+    "sahara": "Desierto del Sáhara",
+    "saharaText": "Dunas doradas, campamentos en el desierto y noches inolvidables bajo las estrellas.",
+
+    "atlas": "Montañas del Atlas",
+    "atlasText": "Pueblos bereberes, valles espectaculares y grandes paisajes de montaña.",
+
+    "whyKicker": "POR QUÉ VIAJAR CON NOSOTROS",
+    "whyTitle": "Más que un tour. Un viaje creado para ti.",
+    "whyText": "Combinamos conocimiento local, experiencias cuidadosamente seleccionadas y atención personal para crear viajes naturales, flexibles y auténticamente marroquíes.",
+
+    "testimonialKicker": "HISTORIAS DE VIAJEROS",
+    "testimonialTitle": "Recuerdos creados en Marruecos",
+    "testimonialText": "Cada viaje es diferente. Nuestro objetivo es sencillo: hacer que el tuyo sea inolvidable.",
+
+    "ctaKicker": "TU VIAJE EMPIEZA AQUÍ",
+    "ctaTitle": "¿Listo para descubrir Marruecos?",
+    "ctaText": "Cuéntanos qué quieres vivir. Te ayudaremos a crear el viaje adecuado.",
+    "ctaButton": "Planificar Mi Viaje"
+  },
+  "tour": {
+    "from": "Desde €{{price}}",
+    "explore": "Ver viaje",
+    "loading": "Cargando viaje…",
+    "notFound": "Viaje no encontrado",
+    "back": "Volver a Experiencias",
+    "journey": "EL VIAJE",
+    "overview": "Descripción",
+    "itinerary": "Itinerario",
+    "dayByDay": "DÍA A DÍA",
+    "itineraryText": "Descubre la ruta y las experiencias que forman tu viaje por Marruecos.",
+    "day": "DÍA {{number}}",
+    "starting": "Desde",
+    "request": "Solicitar Este Viaje",
+    "duration": "Duración",
+    "destination": "Destino",
+    "travelStyle": "Tipo de Viaje",
+    "private": "Viaje Privado",
+    "priceFrom": "Precio Desde",
+    "perPerson": "por persona",
+    "personalizeTitle": "Haz que este viaje sea tuyo",
+    "personalizeText": "Cada itinerario puede adaptarse a tus fechas, intereses, ritmo y experiencias preferidas.",
+    "bookingNote": "No es necesario realizar ningún pago. Envíanos tu solicitud y te contactaremos para personalizar el viaje.",
+    "ctaKicker": "MARRUECOS A TU MEDIDA",
+    "ctaTitle": "¿Buscas algo diferente?",
+    "ctaText": "Cuéntanos cómo imaginas tu viaje y te ayudaremos a crear una experiencia a tu medida.",
+    "ctaButton": "Planificar Mi Viaje"
+  },
+  "experiences": {
+    "kicker": "VIAJES POR MARRUECOS",
+    "title": "Nuestras Experiencias",
+    "text": "Viajes privados creados para descubrir los paisajes, la cultura y el carácter de Marruecos.",
+    "all": "Todos",
+    "introKicker": "VIAJA A TU MANERA",
+    "introTitle": "Más que lugares. Experiencias que permanecen contigo.",
+    "introText": "Desde el silencio del Sáhara hasta los pueblos de montaña y las antiguas medinas, nuestros viajes combinan los lugares esenciales de Marruecos con la libertad de descubrirlos a tu propio ritmo.",
+    "benefits": {
+      "private": "Viajes privados",
+      "privateText": "Viaja con tu propio conductor y disfruta de un recorrido diseñado a tu medida.",
+      "flexible": "Itinerarios flexibles",
+      "flexibleText": "Las rutas pueden adaptarse a tus fechas, intereses y forma de viajar.",
+      "authentic": "Experiencias locales",
+      "authenticText": "Descubre Marruecos a través de sus paisajes, tradiciones y personas, más allá de las rutas habituales."
+    },
+    "collectionKicker": "ENCUENTRA TU VIAJE",
+    "collectionTitle": "Explora nuestros tours",
+    "collectionText": "Elige un viaje como punto de partida. Cada experiencia puede adaptarse para hacerla tuya.",
+    "loading": "Cargando experiencias…",
+    "empty": "No se encontraron experiencias."
+  },
+  "pages": {
+    "brand": "BEST MOROCCO EXPERIENCE",
+    "destinations": {
+      "hero": "Explora Marruecos",
+      "title": "Destinos",
+      "text": "De Marrakech al Sáhara, descubre lugares con su propio ritmo y su propia historia."
+    },
+    "about": {
+      "hero": "Viaja con una perspectiva local",
+      "title": "Sobre Nosotros",
+      "text": "Creamos viajes privados con flexibilidad, lugares auténticos y una atención cercana durante todo el recorrido."
+    },
+    "contact": {
+      "hero": "Planifiquemos tu aventura en Marruecos",
+      "title": "Contacto",
+      "text": "Teléfono: +212 6 21 54 89 65 • info@bestmoroccoexperience.com",
+      "email": "Enviar un correo"
+    }
+  },
+
+  "destinations": {
+    "kicker": "LUGARES POR DESCUBRIR",
+    "title": "Destinos",
+    "text": "Desde antiguas medinas hasta horizontes del desierto, descubre los lugares que hacen de Marruecos un destino inolvidable.",
+    "introKicker": "EXPLORA MARRUECOS",
+    "introTitle": "Un país. Infinitas experiencias.",
+    "introText": "Cada región de Marruecos tiene sus propios paisajes, tradiciones y ritmo. Descubre ciudades vibrantes, valles de montaña, pueblos atlánticos y el silencio del Sáhara.",
+    "explore": "Explorar Experiencias",
+    "places": {
+      "marrakech": {
+        "name": "Marrakech",
+        "region": "Centro de Marruecos",
+        "text": "Piérdete entre coloridos zocos, tranquilos riads, palacios históricos y la inolvidable atmósfera de la Ciudad Roja."
+      },
+      "sahara": {
+        "name": "Desierto del Sáhara",
+        "region": "Sur de Marruecos",
+        "text": "Atraviesa espectaculares paisajes desérticos, recorre dunas doradas y disfruta de una noche mágica bajo un cielo lleno de estrellas."
+      },
+      "atlas": {
+        "name": "Montañas del Atlas",
+        "region": "Alto Atlas",
+        "text": "Descubre valles espectaculares, pueblos bereberes tradicionales y paisajes de montaña lejos del ritmo de las ciudades."
+      },
+      "fes": {
+        "name": "Fez",
+        "region": "Norte de Marruecos",
+        "text": "Adéntrate en una de las ciudades imperiales más antiguas de Marruecos, entre madrasas históricas, talleres artesanales y las calles de su medina."
+      },
+      "chefchaouen": {
+        "name": "Chefchaouen",
+        "region": "Montañas del Rif",
+        "text": "Explora las tranquilas calles azules de esta ciudad de montaña, rodeada por los espectaculares paisajes del norte de Marruecos."
+      },
+      "essaouira": {
+        "name": "Essaouira",
+        "region": "Costa Atlántica",
+        "text": "Disfruta del aire del océano, las calles blancas, las murallas históricas y el ambiente relajado de la costa atlántica."
+      }
+    },
+    "ctaKicker": "CREA TU VIAJE",
+    "ctaTitle": "¿Hasta dónde te llevará Marruecos?",
+    "ctaText": "Combina ciudades, montañas, costa y desierto en un viaje diseñado a tu medida.",
+    "ctaButton": "Planificar Mi Viaje"
+  },
+
+  "booking": {
+    "kicker": "VIAJES A MEDIDA",
+    "title": "Planifica Tu Viaje",
+    "heroText": "Cuéntanos cómo quieres descubrir Marruecos. Te ayudaremos a convertir tus ideas en un viaje privado diseñado a tu medida.",
+
+    "formKicker": "EMPIEZA TU VIAJE",
+    "formTitle": "Cuéntanos sobre tu viaje",
+    "formText": "Comparte algunos detalles con nosotros. No hay compromiso ni es necesario realizar ningún pago para enviar tu solicitud.",
+
+    "phoneLabel": "Teléfono / WhatsApp",
+    "emailLabel": "Email",
+    "supportLabel": "Atención Personal",
+    "support": "Estamos aquí para ayudarte",
+
+    "selectedTour": "Viaje seleccionado",
+
+    "name": "Nombre completo",
+    "namePlaceholder": "Tu nombre completo",
+    "email": "Correo electrónico",
+    "phone": "Teléfono / WhatsApp",
+    "date": "Fecha de viaje preferida",
+    "travelers": "Número de viajeros",
+    "destination": "Lugares que quieres visitar",
+    "destinationPlaceholder": "Marrakech, Sáhara, Fez...",
+    "messageLabel": "Cuéntanos sobre tu viaje ideal",
+    "message": "¿Qué te gustaría descubrir? Cuéntanos tus intereses, lugares preferidos o cualquier petición especial.",
+
+    "button": "Enviar Mi Solicitud",
+    "sending": "Enviando tu solicitud…",
+    "success": "¡Gracias! Hemos recibido tu solicitud. Nos pondremos en contacto contigo pronto.",
+    "error": "Algo ha salido mal. Por favor, inténtalo de nuevo.",
+
+    "privacy": "Tu información solo se utilizará para preparar y responder a tu solicitud de viaje.",
+
+    "stepsKicker": "QUÉ PASA DESPUÉS",
+    "stepsTitle": "De tu idea a Marruecos",
+
+    "step1": "Envía tu solicitud",
+    "step1Text": "Cuéntanos tus fechas, intereses y los lugares que quieres descubrir.",
+
+    "step2": "Diseñamos tu viaje",
+    "step2Text": "Nos pondremos en contacto contigo y adaptaremos el itinerario a tu estilo de viaje y preferencias.",
+
+    "step3": "Descubre Marruecos",
+    "step3Text": "Cuando todo esté preparado, tu viaje privado por Marruecos estará listo para comenzar."
+  },
+
+  "about": {
+    "kicker": "NUESTRA HISTORIA",
+    "title": "Descubre Marruecos Desde Una Perspectiva Local",
+    "heroText": "Viajes privados con significado, creados con conocimiento local, flexibilidad y una conexión auténtica con Marruecos.",
+    "storyKicker": "BEST MOROCCO EXPERIENCE",
+    "storyTitle": "Marruecos es mucho más que un destino.",
+    "storyText1": "Creemos que los mejores viajes no consisten simplemente en visitar lugares. Se trata de comprenderlos, conocer a su gente y descubrir los paisajes y tradiciones que dan carácter a Marruecos.",
+    "storyText2": "Nuestro enfoque es personal y flexible. Creamos viajes privados que te permiten descubrir Marruecos a tu propio ritmo.",
+    "valuesKicker": "NUESTRA FORMA DE VIAJAR",
+    "valuesTitle": "Diseñado alrededor de tu manera de descubrir Marruecos",
+    "local": "Conocimiento local",
+    "localText": "Viaja con una perspectiva basada en un conocimiento real de Marruecos y sus regiones.",
+    "flexible": "Viajes flexibles",
+    "flexibleText": "Tu itinerario puede adaptarse a tus fechas, intereses y ritmo preferido.",
+    "personal": "Atención personal",
+    "personalText": "Asistencia clara y directa desde la planificación hasta tu viaje por Marruecos.",
+    "authentic": "Experiencias auténticas",
+    "authenticText": "Descubre paisajes, tradiciones y lugares más allá de las rutas turísticas habituales.",
+    "ctaKicker": "DESCUBRE MARRUECOS",
+    "ctaTitle": "Tu viaje. Tu ritmo. Tu Marruecos.",
+    "ctaText": "Cuéntanos qué quieres vivir y te ayudaremos a crear un viaje a tu medida.",
+    "ctaButton": "Planificar Mi Viaje"
+  },
+
+  "contact": {
+    "kicker": "HABLEMOS",
+    "title": "Hablemos De Tu Viaje",
+    "heroText": "¿Tienes una pregunta o una idea para tu aventura en Marruecos? Nos encantará escucharte.",
+    "infoKicker": "CONTACTA CON NOSOTROS",
+    "infoTitle": "Estamos aquí para ayudarte",
+    "infoText": "Tanto si estás listo para planificar tu viaje como si simplemente tienes una pregunta, escríbenos y nos pondremos en contacto contigo.",
+    "phone": "Teléfono",
+    "email": "Email",
+    "whatsapp": "WhatsApp",
+    "location": "Estamos en",
+    "formTitle": "Envíanos un mensaje",
+    "formText": "Completa el formulario y cuéntanos cómo podemos ayudarte.",
+    "name": "Nombre completo",
+    "namePlaceholder": "Tu nombre completo",
+    "subject": "Asunto",
+    "subjectPlaceholder": "¿Cómo podemos ayudarte?",
+    "messageLabel": "Mensaje",
+    "message": "Escribe tu mensaje aquí...",
+    "button": "Enviar Mensaje",
+    "sending": "Enviando…",
+    "success": "¡Gracias! Tu mensaje ha sido enviado correctamente.",
+    "error": "Algo ha salido mal. Por favor, inténtalo de nuevo."
+  },
+
+  "footer": {
+    "text": "Viajes privados por Marruecos, diseñados con conocimiento local y un trato personal.",
+    "explore": "Explorar",
+    "about": "Sobre nosotros",
+    "contact": "Contacto",
+    "rights": "© 2026 Best Morocco Experience. Todos los derechos reservados."
+  },
+  "categories": {
+    "Desert Tours": "Tours por el desierto",
+    "Day Trips": "Excursiones de un día"
+  }
+}

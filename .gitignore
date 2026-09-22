@@ -1,0 +1,25 @@
+# Frontend
+**/node_modules/
+**/dist/
+
+# Backend
+**/target/
+backend/data/
+backend/uploads/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
