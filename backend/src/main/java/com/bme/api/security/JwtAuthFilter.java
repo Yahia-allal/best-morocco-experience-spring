@@ -1,4 +1,4 @@
-package com.bme.api;
+package com.bme.api.security;
 
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;

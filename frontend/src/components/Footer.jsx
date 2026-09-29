@@ -10,6 +10,8 @@ import {
   ArrowUpRight,
 } from "lucide-react";
 
+import { FaWhatsapp } from "react-icons/fa";
+
 export default function Footer() {
   const { t } = useTranslation();
   const year = new Date().getFullYear();
@@ -19,23 +21,40 @@ export default function Footer() {
       <div className="foot">
         <div className="footerBrand">
           <Link className="footerLogo" to="/">
-            <b>BME</b>
-            <span>
-              BEST MOROCCO
-              <br />
-              EXPERIENCE
-            </span>
+            <img
+              src="/images/logo.png"
+              alt="Best Morocco Experience"
+              className="footerLogoImage"
+            />
           </Link>
 
           <p>{t("footer.text")}</p>
 
           <div className="footerSocials">
-            <a href="#" aria-label="Facebook">
-              <Facebook />
+            <a
+              href={"https:" + "//wa.me/212660109946"}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="WhatsApp"
+            >
+              <FaWhatsapp />
             </a>
 
-            <a href="#" aria-label="Instagram">
+            <a
+              href="https://www.instagram.com/best_morocco_experience/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Instagram"
+            >
               <Instagram />
+            </a>
+            <a
+              href="https://web.facebook.com/Bestmoroccoexperience"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Facebook"
+            >
+              <Facebook />
             </a>
 
             <a href="#" aria-label="YouTube">
@@ -61,12 +80,12 @@ export default function Footer() {
 
           <a href="tel:+212621548965">
             <Phone />
-            <span>+212 6 21 54 89 65</span>
+            <span>+212 6 60 10 99 46</span>
           </a>
 
-          <a href="mailto:info@bestmoroccoexperience.com">
+          <a href="mailto:bestmoroccoexperience@gmail.com">
             <Mail />
-            <span>info@bestmoroccoexperience.com</span>
+            <span>bestmoroccoexperience@gmail.com</span>
           </a>
 
           <Link to="/booking" className="footerJourney">

@@ -41,7 +41,7 @@ export default function AdminLogin() {
     <div className="loginPage">
       <div className="loginCard">
         <img
-          src="/images/logo.png"
+          src="/images/logo2.png"
           alt="Best Morocco Experience"
           className="loginLogo"
         />

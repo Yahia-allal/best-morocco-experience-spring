@@ -1,1 +1,15 @@
-package com.bme.api.model;import jakarta.persistence.*;import java.time.LocalDateTime;@Entity public class Booking{@Id @GeneratedValue(strategy=GenerationType.IDENTITY)public Long id;public String name,email,phone,travelDate,travelers;@Column(length=3000)public String message;public LocalDateTime createdAt=LocalDateTime.now();}
+package com.bme.api.model;
+
+import jakarta.persistence.*;
+import java.time.LocalDateTime;
+
+@Entity
+public class Booking {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    public Long id;
+    public String name, email, phone, travelDate, travelers;
+    @Column(length = 3000)
+    public String message;
+    public LocalDateTime createdAt = LocalDateTime.now();
+}

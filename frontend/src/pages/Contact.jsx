@@ -55,15 +55,15 @@ export default function Contact() {
               <Phone />
               <div>
                 <small>{t("contact.phone")}</small>
-                <strong>+212 6 21 54 89 65</strong>
+                <strong>+212 6 60 10 99 46</strong>
               </div>
             </a>
 
-            <a href="mailto:info@bestmoroccoexperience.com">
+            <a href="mailto:bestmoroccoexperience@gmail.com">
               <Mail />
               <div>
                 <small>{t("contact.email")}</small>
-                <strong>info@bestmoroccoexperience.com</strong>
+                <strong>bestmoroccoexperience@gmail.com</strong>
               </div>
             </a>
 
@@ -71,7 +71,7 @@ export default function Contact() {
               <MessageCircle />
               <div>
                 <small>{t("contact.whatsapp")}</small>
-                <strong>+212 6 21 54 89 65</strong>
+                <strong>+212 6 60 10 99 46</strong>
               </div>
             </div>
 

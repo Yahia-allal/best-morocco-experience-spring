@@ -4,6 +4,7 @@ import com.bme.api.model.Tour;
 import com.bme.api.repository.TourRepository;
 import org.springframework.web.bind.annotation.*;
 import java.util.*;
+import org.springframework.http.ResponseEntity;
 
 @RestController
 @RequestMapping("/api")
@@ -38,7 +39,16 @@ public class TourController {
     }
 
     @DeleteMapping("/admin/tours/{id}")
-    public void delete(@PathVariable Long id) {
+    public ResponseEntity<?> delete(@PathVariable Long id) {
+
+        System.out.println("DELETE TOUR ID = " + id);
+
+        if (!r.existsById(id)) {
+            return ResponseEntity.notFound().build();
+        }
+
         r.deleteById(id);
+
+        return ResponseEntity.ok().build();
     }
 }

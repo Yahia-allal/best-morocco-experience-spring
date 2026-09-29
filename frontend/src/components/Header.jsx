@@ -11,6 +11,8 @@ import {
   Youtube,
 } from "lucide-react";
 
+import { FaWhatsapp } from "react-icons/fa";
+
 import { setLanguage } from "../i18n";
 
 export default function Header() {
@@ -49,25 +51,43 @@ export default function Header() {
       <div className="top">
         <span>
           <Phone />
-          +212 6 21 54 89 65
+          +212 6 60 10 99 46
         </span>
 
         <span>
           <Mail />
-          info@bestmoroccoexperience.com
+          bestmoroccoexperience@gmail.com
         </span>
 
         <i />
-
-        <Facebook />
-        <Youtube />
         <a
-          href="https://www.instagram.com/go_go_to_morocco?stkn=aGp2engzMDN1ZDZm&utm_source=qr"
+          href={"https:" + "//wa.me/212660109946"}
           target="_blank"
           rel="noopener noreferrer"
+          aria-label="WhatsApp"
+        >
+          <FaWhatsapp />
+        </a>
+
+        <a
+          href="https://www.instagram.com/best_morocco_experience/"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Instagram"
         >
           <Instagram />
         </a>
+
+        <a
+          href="https://web.facebook.com/Bestmoroccoexperience"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Facebook"
+        >
+          <Facebook />
+        </a>
+
+        <Youtube />
       </div>
 
       <nav>

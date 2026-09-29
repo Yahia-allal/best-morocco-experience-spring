@@ -3,6 +3,7 @@ import {
   BarChart3,
   BookOpen,
   CalendarDays,
+  CheckCircle2,
   ExternalLink,
   Mail,
   MapPin,
@@ -11,11 +12,14 @@ import {
   Plus,
   RefreshCw,
   Trash2,
+  TriangleAlert,
   Users,
   X,
 } from "lucide-react";
+import "./Admin.css";
 
 import { toursApi, adminApi } from "../../services/api";
+import toast, { Toaster } from "react-hot-toast";
 
 const emptyTour = {
   title: "",
@@ -92,151 +96,196 @@ export default function Admin() {
   }
 
   async function deleteTour(tour) {
-    const confirmed = window.confirm(
-      `Delete "${tour.title}"?\n\nThis action cannot be undone.`,
+    toast(
+      (t) => (
+        <div className="deleteConfirmToast">
+          <div>
+            <strong>Delete tour?</strong>
+            <p>
+              Are you sure you want to delete
+              <b> "{tour.title}"</b>?
+            </p>
+
+            <div className="deleteConfirmActions">
+              <button
+                className="deleteCancelBtn"
+                onClick={() => toast.dismiss(t.id)}
+              >
+                Cancel
+              </button>
+
+              <button
+                className="deleteConfirmBtn"
+                onClick={async () => {
+                  toast.dismiss(t.id);
+
+                  try {
+                    await toursApi.remove(tour.id);
+
+                    toast.success("Tour deleted successfully");
+
+                    await load();
+                  } catch (e) {
+                    toast.error("Unable to delete this tour");
+                  }
+                }}
+              >
+                Delete
+              </button>
+            </div>
+          </div>
+        </div>
+      ),
+      {
+        duration: Infinity,
+      },
     );
-
-    if (!confirmed) return;
-
-    try {
-      await toursApi.remove(tour.id);
-      await load();
-    } catch (err) {
-      window.alert("Unable to delete this tour.");
-    }
   }
 
   return (
-    <div className="adminDashboard">
-      <aside className={`adminSidebar ${sidebarOpen ? "open" : ""}`}>
-        <div className="adminBrand">
-          <img src="/images/logo.png" alt="Best Morocco" />
-        </div>
+    <>
+      <Toaster position="top-right" />
 
-        <nav className="adminNav">
-          {tabs.map(({ name, icon: Icon }) => (
-            <button
-              key={name}
-              type="button"
-              className={tab === name ? "active" : ""}
-              onClick={() => changeTab(name)}
-            >
-              <Icon size={19} />
-              <span>{name}</span>
-
-              {name === "Bookings" && bookings.length > 0 && (
-                <small>{bookings.length}</small>
-              )}
-
-              {name === "Messages" && messages.length > 0 && (
-                <small>{messages.length}</small>
-              )}
-            </button>
-          ))}
-        </nav>
-
-        <div className="adminSidebarBottom">
-          <a href="/" target="_blank" rel="noreferrer">
-            <ExternalLink size={17} />
-            View website
-          </a>
-
-          <span>Best Morocco Experience</span>
-
-          <small>© 2026 Admin Dashboard</small>
-        </div>
-      </aside>
-
-      {sidebarOpen && (
-        <button
-          className="adminSidebarOverlay"
-          type="button"
-          aria-label="Close menu"
-          onClick={() => setSidebarOpen(false)}
-        />
-      )}
-
-      <main className="adminMain">
-        <header className="adminTopbar">
-          <div className="adminTopbarLeft">
-            <button
-              className="adminMenuButton"
-              type="button"
-              onClick={() => setSidebarOpen(true)}
-            >
-              <Menu />
-            </button>
-
-            <div>
-              <span>ADMINISTRATION</span>
-              <h1>{tab}</h1>
-            </div>
+      <div className="adminDashboard">
+        {" "}
+        <aside className={`adminSidebar ${sidebarOpen ? "open" : ""}`}>
+          <div className="adminBrand">
+            <img src="/images/logo.png" alt="Best Morocco" />
           </div>
 
-          <div className="adminTopbarActions">
-            <button className="adminRefresh" type="button" onClick={logout}>
-              Logout
-            </button>
+          <nav className="adminNav">
+            {tabs.map(({ name, icon: Icon }) => (
+              <button
+                key={name}
+                type="button"
+                className={tab === name ? "active" : ""}
+                onClick={() => changeTab(name)}
+              >
+                <Icon size={19} />
+                <span>{name}</span>
 
-            <button
-              className="adminRefresh"
-              type="button"
-              onClick={load}
-              disabled={loading}
-            >
-              <RefreshCw size={17} />
-              Refresh
-            </button>
+                {name === "Bookings" && bookings.length > 0 && (
+                  <small>{bookings.length}</small>
+                )}
+
+                {name === "Messages" && messages.length > 0 && (
+                  <small>{messages.length}</small>
+                )}
+              </button>
+            ))}
+          </nav>
+
+          <div className="adminSidebarBottom">
+            <a href="/" target="_blank" rel="noreferrer">
+              <ExternalLink size={17} />
+              View website
+            </a>
+
+            <span>Best Morocco Experience</span>
+
+            <small>© 2026 Admin Dashboard</small>
           </div>
-        </header>
+        </aside>
+        {sidebarOpen && (
+          <button
+            className="adminSidebarOverlay"
+            type="button"
+            aria-label="Close menu"
+            onClick={() => setSidebarOpen(false)}
+          />
+        )}
+        <main className="adminMain">
+          <header className="adminTopbar">
+            <div className="adminTopbarLeft">
+              <button
+                className="adminMenuButton"
+                type="button"
+                onClick={() => setSidebarOpen(true)}
+              >
+                <Menu />
+              </button>
 
-        <section className="adminContent">
-          {error && <div className="adminError">{error}</div>}
-
-          {loading ? (
-            <div className="adminLoading">
-              <RefreshCw className="adminSpin" />
-              <span>Loading dashboard...</span>
+              <div>
+                <span>ADMINISTRATION</span>
+                <h1>{tab}</h1>
+              </div>
             </div>
-          ) : (
-            <>
-              {tab === "Overview" && (
-                <Overview
-                  tours={tours}
-                  bookings={bookings}
-                  messages={messages}
-                  changeTab={changeTab}
-                />
-              )}
 
+            <div className="adminTopbarActions">
               {tab === "Tours" && (
-                <Tours
-                  tours={tours}
-                  edit={setEditing}
-                  remove={deleteTour}
-                  add={() => setEditing({ ...emptyTour })}
-                />
+                <button
+                  className="adminAddTour"
+                  type="button"
+                  onClick={() => setEditing({ ...emptyTour })}
+                >
+                  <Plus size={17} />
+                  Add Tour
+                </button>
               )}
 
-              {tab === "Bookings" && <Bookings rows={bookings} />}
+              <button
+                className="adminRefresh"
+                type="button"
+                onClick={load}
+                disabled={loading}
+              >
+                <RefreshCw size={17} />
+                Refresh
+              </button>
 
-              {tab === "Messages" && <Messages rows={messages} />}
-            </>
-          )}
-        </section>
-      </main>
+              <button className="adminLogout" type="button" onClick={logout}>
+                Logout
+              </button>
+            </div>
+          </header>
 
-      {editing && (
-        <TourModal
-          tour={editing}
-          close={() => setEditing(null)}
-          saved={async () => {
-            setEditing(null);
-            await load();
-          }}
-        />
-      )}
-    </div>
+          <section className="adminContent">
+            {error && <div className="adminError">{error}</div>}
+
+            {loading ? (
+              <div className="adminLoading">
+                <RefreshCw className="adminSpin" />
+                <span>Loading dashboard...</span>
+              </div>
+            ) : (
+              <>
+                {tab === "Overview" && (
+                  <Overview
+                    tours={tours}
+                    bookings={bookings}
+                    messages={messages}
+                    changeTab={changeTab}
+                  />
+                )}
+
+                {tab === "Tours" && (
+                  <Tours
+                    tours={tours}
+                    edit={setEditing}
+                    remove={deleteTour}
+                    add={() => setEditing({ ...emptyTour })}
+                  />
+                )}
+
+                {tab === "Bookings" && <Bookings rows={bookings} />}
+
+                {tab === "Messages" && <Messages rows={messages} />}
+              </>
+            )}
+          </section>
+        </main>
+        {editing && (
+          <TourModal
+            tour={editing}
+            close={() => setEditing(null)}
+            saved={async () => {
+              setEditing(null);
+              await load();
+            }}
+          />
+        )}
+      </div>
+    </>
   );
 }
 

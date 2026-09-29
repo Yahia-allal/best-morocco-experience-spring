@@ -1,8 +1,9 @@
 package com.bme.api.controller;
 
-import com.bme.api.JwtService;
 import com.bme.api.model.Admin;
 import com.bme.api.repository.AdminRepository;
+import com.bme.api.security.JwtService;
+
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.web.bind.annotation.*;

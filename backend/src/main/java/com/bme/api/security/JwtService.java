@@ -1,4 +1,4 @@
-package com.bme.api;
+package com.bme.api.security;
 
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.security.Keys;

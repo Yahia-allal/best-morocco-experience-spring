@@ -1,4 +1,4 @@
-package com.bme.api;
+package com.bme.api.initializer;
 
 import com.bme.api.model.Admin;
 import com.bme.api.repository.AdminRepository;
